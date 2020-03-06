@@ -1,0 +1,835 @@
+body{
+	margin: 0;
+    padding: 0;
+    background-color: #FFE01B;
+}
+
+/* NAVIGATION */
+.nav-bar{
+	width: 100%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.nav-bar:hover{
+    background-color: #fff;
+}
+.inner-nav-bar img{
+	margin-top: 50px;
+}
+.inner-nav-bar{
+	width: 90%;
+    margin: 0 auto;
+    background-color:#FFE01B;
+}
+.inner-nav-bar:hover{
+    background-color: #fff;
+}
+.inner-nav-bar ul{
+	float: right;
+	margin-top: 80px;
+}
+.inner-nav-bar ul li{
+	list-style: none;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.inner-nav-bar ul li a{
+	text-decoration: none;
+	margin: 0px 20px;
+	padding: 20px 0px;
+	font-weight: bold;
+	color: #241c15;
+}
+.inner-nav-bar ul li a:hover{
+    color: #007C89;
+}
+#button{
+    border: 1px solid #241c15;
+    padding: 10px 5px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+/* HERO CONTENT */
+.hero{
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #FFE01B;
+}
+.hero-content{
+    width: 70%;
+    min-height: 100px;
+    margin: 0 auto;
+    /* background-color:#fff; */
+}
+.panel{
+    float: left;
+}
+.inner-words{
+    width: 45%;
+    min-height: 100px;
+    /* background-color: #ccc; */
+    padding: 2%;
+}
+.inner-words h1{
+    font-size: 50px;
+    font-family: Georgia;
+    color: #241c15;
+}
+.inner-words p{
+    font-size: 20px;
+    font-family: Century Gothic;
+    color: #241c15;
+    padding-bottom: 20px;
+}
+.inner-words h3{
+    border: 1px solid #007C89;
+    background-color:#007C89;
+    padding: 20px 25px;
+    width: 100px;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 18px;
+    float: left;
+}
+.inner-words a{
+    float: right;
+    text-decoration: none;
+    color: #007C89;
+    padding-top: 45px ;
+    margin-right: 160px;
+    font-family: Arial;
+}
+.inner-image{
+    width: 50%;
+    min-height: 100px;
+    /* background-color: #ddd; */
+    margin-bottom: 70px;
+}
+
+/* BODY CONTENT */
+.market-smarter{
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    background-color:#fff;
+    overflow: auto;
+    text-align: center;
+}
+.market-smarter h1{
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: Georgia;
+    padding-bottom: 70px;
+}
+
+/* HOW MAILCHIMP CONNECTS */
+.main-container{
+    width: 100%;
+    min-height: 370px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+}
+.inner-main-cont{
+    width: 70%;
+    min-height: 200px;
+    margin: 0 auto;
+}
+.panel1{
+    float: left;
+}
+.video{
+    width: 50%;
+    margin: 0 auto;
+}
+.content{
+    width: 45%;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+.content h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: Georgia;
+}
+
+/* 
+GET MORE DONE WITH AUTOMATION */
+
+.main-automation{
+	width: 100%;
+	min-height: 700px;
+	margin: 0 auto;
+	background-color: #eee;
+}
+.how-it-works{
+    width: 70%;
+    margin: 0 auto;
+	min-height: 600px;
+	margin: 0 auto;
+}
+.panel2{
+	float: left;
+}
+.image-content{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-content{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.inner-content h1{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.inner-content p{
+	font-family: Century Gothic;
+	font-size: 16px;
+    color: #011627;
+    line-height: 1.5rem;
+}
+.inner-content h3{
+    border: 1px solid #007C89;
+    padding: 15px 10px;
+    width: 250px;
+    text-align: center;
+    color: #007C89;
+    font-family: Century Gothic;
+    font-size: 16px;
+    float: left;
+}
+.inner-content a{
+    text-decoration: none;
+    color: #007C89;
+}
+.image{
+	width: 50%;
+	margin-top: 150px;
+}
+
+/* DRIVE SALES WITH LANDING PAGES */
+.main-sales{
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+}
+.sales-cont{
+    width: 70%;
+    margin: 0 auto;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.panel3{
+	float: left;
+}
+.sales-pic{
+	width: 45%;
+    margin-top: 150px;
+    margin-right: 5%;
+}
+.image-sales{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-sales{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.inner-sales h1{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.inner-sales p{
+	font-family: Century Gothic;
+	font-size: 16px;
+    color: #011627;
+    line-height: 1.5rem;
+}
+.inner-sales h3{
+    border: 1px solid #007C89;
+    padding: 15px 10px;
+    width: 250px;
+    text-align: center;
+    color: #007C89;
+    font-family: Century Gothic;
+    font-size: 16px;
+    float: left;
+}
+.inner-sales a{
+    text-decoration: none;
+    color: #007C89;
+}
+
+/* GROW YOUR AUDIENCE WITH ONE CLICK  */
+
+.main-audience{
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+    background-color: #eee;
+    overflow: auto;
+}
+.inner-audience{
+    width: 70%;
+    margin: 0 auto;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.panel4{
+	float: left;
+}
+.image-audience{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-audience{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.inner-audience h1{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.inner-audience p{
+	font-family: Century Gothic;
+	font-size: 16px;
+    color: #011627;
+    line-height: 1.5rem;
+}
+.inner-audience h3{
+    border: 1px solid #007C89;
+    padding: 15px 10px;
+    width: 250px;
+    text-align: center;
+    color: #007C89;
+    font-family: Century Gothic;
+    font-size: 16px;
+    float: left;
+}
+.inner-audience a{
+    text-decoration: none;
+    color: #007C89;
+}
+.pic-audience{
+	width: 50%;
+	margin-top: 70px;
+}
+
+/* SAVE TIME AUTOMATE YOUR MARKETING */
+
+.main-marketing{
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+}
+.marketing-cont{
+    width: 70%;
+    margin: 0 auto;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.panel5{
+	float: left;
+}
+.marketing-pic{
+	width: 45%;
+    margin-top: 180px;
+    margin-right: 5%;
+}
+.image-marketing{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-marketing{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.inner-marketing h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.inner-marketing p{
+	font-family: Century Gothic;
+	font-size: 18px;
+    color: #011627;
+    line-height: 1.5rem;
+}
+.inner-marketing h3{
+    border: 1px solid #007C89;
+    padding: 15px 10px;
+    width: 250px;
+    text-align: center;
+    color: #007C89;
+    font-family: Century Gothic;
+    font-size: 16px;
+    float: left;
+}
+.inner-marketing a{
+    text-decoration: none;
+    color: #007C89;
+}
+
+/* AN AWARD WINNING PLATFORM */
+
+.main-platform{
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+    background-color: #eee;
+    overflow: auto;
+}
+.inner-platform{
+    width: 70%;
+    margin: 0 auto;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.panel6{
+	float: left;
+}
+.image-platform{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-platform{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.inner-platform h1{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.inner-platform p{
+	font-family: Century Gothic;
+	font-size: 18px;
+    color: #011627;
+    line-height: 1.5rem;
+}
+.inner-platform h3{
+    border: 1px solid #007C89;
+    padding: 15px 10px;
+    width: 250px;
+    text-align: center;
+    color: #007C89;
+    font-family: Century Gothic;
+    font-size: 16px;
+    float: left;
+}
+.inner-platform a{
+    text-decoration: none;
+    color: #007C89;
+}
+.pic-platform{
+	width: 50%;
+	margin-top: 70px;
+}
+
+/* MADE FOR YOUR BUSINESS */
+.main-business{
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+}
+.business-cont{
+    width: 70%;
+    margin: 0 auto;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.panel7{
+	float: left;
+}
+.business-pic{
+	width: 45%;
+    margin-top: 180px;
+    margin-right: 5%;
+}
+.image-business{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-business{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.inner-business h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.inner-business h2{
+    font-family: Georgia;
+    font-size: 30px;
+}
+.inner-business h2:hover{
+    color: #007C89;
+}
+.inner-business p{
+	font-family: Century Gothic;
+	font-size: 18px;
+    color: #011627;
+    line-height: 1.5rem;
+}
+.inner-business a{
+    text-decoration: none;
+    color: #007C89;
+    margin-bottom: 10px;
+    font-family: Georgia;
+}
+
+/* TESTIMONIALS */
+.main-testimonial{
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+    background-color: #F9E0FA;
+    overflow: auto;
+}
+.inner-testimonial{
+    width: 70%;
+    margin: 0 auto;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.panel8{
+	float: left;
+}
+.image-testimonial{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-testimonial{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.inner-testimonial h1{
+	font-size: 45px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.inner-testimonial p{
+	font-family: Century Gothic;
+	font-size: 18px;
+    color: #011627;
+    line-height: 1.5rem;
+}
+.inner-testimonial h3{
+    border: 1px solid #007C89;
+    padding: 15px 10px;
+    width: 250px;
+    text-align: center;
+    color: #007C89;
+    font-family: Century Gothic;
+    font-size: 16px;
+    float: left;
+}
+.inner-testimonial a{
+    text-decoration: none;
+    color: #007C89;
+}
+.pic-testimonial{
+	width: 50%;
+	margin-top: 70px;
+}
+
+/* EXPLORE FEATURE UPDATES */
+.blogs{
+    width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+}
+.main-blogs{
+	width: 70%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+    margin-bottom: 250px;
+}
+.description{
+	float: left;
+}
+.main-blogs h1{
+	text-align: center;
+	color: #011627;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+	margin-bottom: 70px;
+}
+.feature1{
+	width: 33.3%;
+	min-height: 471px;
+	margin: 0 auto;
+}
+.inner-feature1{
+	width: 100%;
+	min-height: 200px;
+	margin: 0 auto;
+}
+.inner-feature1 h2{
+	font-size: 20px;
+	color: #007C89;
+    padding-bottom: 15px;
+    font-family: Georgia;
+    line-height: 1.5rem;
+}
+.inner-feature1 p{
+	font-size: 18px;
+	color: #011627;
+}
+.feature2{
+	width: 33.3%;
+	min-height: 471px;
+	margin: 0 auto;
+}
+.inner-feature2{
+	width: 100%;
+	min-height: 200px;
+	margin: 0 auto;
+}
+.inner-feature2 h2{
+	color: #007C89;
+    padding-bottom: 15px;
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+.inner-feature2 p{
+	font-size: 18px;
+	color: #011627;
+}
+.feature3{
+	width: 33.3%;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.inner-feature3{
+	width: 100%;
+	min-height: 20px;
+    margin: 0 auto;
+}
+.inner-feature3 h2{
+    color: #007C89;
+    padding-bottom: 15px;
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+.inner-feature3 p{
+	font-size: 18px;
+	color: #011627;
+}
+
+/* YOU WILL BE IN GOOD COMPANY */
+.quote{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia;
+    overflow: auto;
+    background-color: #fff;
+}
+
+/* PARTNERSHIP */
+.partnership{
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+}
+.inner-partnership{
+    width: 70%;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.inner-partnership img{
+    float: left;
+    padding-right: 85px;
+}
+
+/* IT'S EASY TO GET STARTED */
+.get-started{
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    background-color:#FFE01B;
+    overflow: auto;
+}
+.get-started-content{
+    width: 70%;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.get-started-content h1{
+    font-size: 60px;
+    font-family: Georgia;
+    text-align: center;
+}
+.get-started-content h3{
+    font-size: 20px;
+    font-family: Century Gothic;
+    text-align: center;
+}
+.get-started-content h2{
+    border: 1px solid #007C89;
+    background-color: #007C89;
+    padding: 20px 20px;
+    width: 100px;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 16px;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.get-started-content a{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    color: #000
+}
+
+/* FOOTER CONTENT */
+.main-cont-footer{
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    background-color:#FFE01B;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+.inner-content{
+    width: 70%;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.mailchimp-presents{
+	width: 23%;
+	margin: 0 auto;
+}
+.mailchimp-presents h2{
+    font-family: Century Gothic;
+    font-size: 20px;
+}
+.mailchimp-presents a{
+    font-family: Century Gothic;
+}
+.footer1{
+    float: left;
+    margin-right: 7%;
+}
+.Company{
+	width: 23%;
+	margin: 0 auto;
+}
+.Company h4{
+    font-family: Century Gothic;
+}
+
+.Company a{
+	text-decoration: none;
+    font-size: 15px;
+    font-family: Century Gothic;
+    color: black;
+}
+.Product{
+	width: 23%;
+	margin: 0 auto;
+}
+.Product h4{
+    font-family: Century Gothic;
+}
+
+.Product a{
+	text-decoration: none;
+    font-size: 15px;
+    font-family: Century Gothic;
+    color: black;
+}
+.Community{
+	width: 23%;
+	margin: 0 auto;
+}
+.Community h4{
+    font-family: Century Gothic;
+}
+
+.Community a{
+	text-decoration: none;
+    font-size: 15px;
+    font-family: Century Gothic;
+    color: black;
+}
+.inner-content a:hover{
+    color: #007C89
+}
+
+/* SOCIAL MEDIA LINKS */
+.font-cont{
+    background-color:#FFE01B; 
+    width: 100%;
+}
+
+.font1 {
+    width: 70%;
+	color: #c6c4c4;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 170px;
+    overflow: auto;
+    background-color:#FFE01B;  
+}
+.font1 i{
+    padding-right: 20px;
+    color: #000;
+}
+.font1 p{
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+
+
+
+
+
+
+
